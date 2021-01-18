@@ -1,0 +1,435 @@
+/*--------------------------Global---*/
+
+
+* {
+	box-sizing: border-box;
+	font-family: 'Lobster Two', cursive;
+}
+
+
+body {
+	background-color:tan;
+	
+}
+
+
+
+
+
+
+
+
+
+
+h2 {
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-weight: 300;
+	font-size: 2em;
+}
+
+
+h3 {
+	font-weight: normal;
+	margin: 0.9em auto;
+}
+h5 {
+	font-weight: 300;
+	font-size: 1.5em;
+}
+
+
+img {
+	max-width: 100%;
+}
+
+
+p {
+	font-weight: 300;
+	line-height: 1.5em;
+	margin: 0;
+}
+
+
+
+
+a {
+	text-decoration: none;
+}
+ul, li {
+	list-style: none;
+	font-size: 1em;
+	margin: 0;
+	padding: 0;
+}
+
+
+.wrapper {
+	max-width: 320px;
+	margin: 0 auto;
+	padding: 0 16px;
+}
+
+
+
+            /*-------------HEADING-------------------*/
+	
+
+.main-header {
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 16px;
+}
+
+.profile-banner {
+	padding-top: 1.75em;
+	padding-bottom: 1.75em;
+}
+
+
+.profile-picture {
+	width: 70%;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	border: .5em solid #DC7633;
+	border-bottom-color:#A04000;
+}
+
+
+.profile-intro {
+	margin-top: 0.8em;
+	margin-bottom: 0.8em;
+}
+
+
+
+/*----------NAVIGATION----------------------------*/
+	
+
+
+
+nav {
+	list-style: none;
+}
+
+
+
+
+
+ .main-nav li {
+	padding-top: 0.6em;
+	padding-bottom: 0.6em;
+	margin-bottom: 4px;
+}
+
+
+
+
+                      /*      MAIN CONTENT      */
+
+
+.main-content {
+	padding-top: 2em;
+	margin-bottom: 1em;
+	padding-bottom: 2em;
+}
+
+#portfolio {
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 3.75em;
+}
+
+
+
+
+                       /*   PORTFOLIO-PROJECT */
+
+
+#skills, .portfolio-project {
+	text-align: center;
+	width: 100%;
+	padding-bottom: 1em;
+	margin-top:1em;
+	margin-bottom: 0.9em;
+}
+
+
+.project-info {
+	line-height: 1.5em;
+	font-size: 16px;
+}
+
+
+
+                         /*    FOOTER */
+
+
+.bottom-bar {
+	margin: 1em auto;
+}
+
+
+.contact-info {
+	padding-bottom: 1em;
+	margin-bottom: 2em;
+}
+
+
+.contact-info p {
+	margin: 1em auto;
+}
+                 /*         FOOTER NAVIGATION MOBILE SETTINGS    */
+.footer-nav,
+.footer-nav-mobile {
+	float: right;
+}
+
+
+.footer-nav {
+	display: none;
+}
+
+
+.footer-nav-mobile {
+	display: inline-block;
+}
+
+
+.main-footer {
+	margin: 1em auto;
+	text-align: center;
+	padding-top: 1em;
+}
+
+
+.main-footer p {
+	margin: 2em auto;
+}
+
+
+.student-name {
+	float: left;
+	font-size: 0.83em;
+	font-weight: bold;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+
+
+
+	
+
+
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+	color: brown;
+}
+
+
+nav li {
+	background-color: antiquewhite;
+}
+
+
+nav a {
+	color: brown;
+}
+
+
+
+
+p {
+	color: darkgreen;
+}
+
+
+.main-content {
+	background-color: antiquewhite;
+}
+
+#skills-list li {
+	border-radius: 1rem;
+    display: inline-block;
+    background: antiquewhite;
+    color: darkgreen;
+    padding: 5px;
+    margin: 2px;
+	
+}
+
+
+
+                          /*    MEDIA QUERIES   */
+
+
+                        /*  For tablet-sized screens (768px+) */
+
+@media (min-width: 768px) {
+
+	
+
+	
+	.wrapper {
+		max-width: 768px;
+		padding: 0 32px;
+	}
+
+	/*  change main-nav to horizontal nav; also adjust bg color and margins  */
+	
+	 #skill-set, .main-nav li {
+		display: inline-block;
+		background-color: tan;
+		margin-left: 1em;
+		margin-right: 1em;
+	}
+
+
+	
+	.profile-banner {
+		padding-bottom: 3em;
+	}
+
+	
+	.profile-picture {
+		max-width: 40%;
+		float: right;
+	}
+
+	
+	.profile-intro {
+		max-width: 60%;
+		font-size: 1.25em;
+		float:left;
+		text-align: left;
+	}
+
+	
+	.profile-picture,
+	.profile-intro {
+		display: inline-block;
+	}
+
+	/*  resize portfolio projects to display in two columns  */
+	.portfolio-project {
+		display: inline-block;
+		width: 49%;
+		margin-right: 4px;
+	}
+
+	/*  center project info/adjust size  */
+	
+	.project-info {
+		margin: 0 auto;
+		font-size: 14px;
+		width: 80%;
+	}
+
+	/*  adjust width of paragraph about contacting me  */
+	
+	.main-footer p {
+		width: 60%;
+	}
+
+	/*  hides the mobile footer nav  */
+	
+	.footer-nav-mobile {
+		display: none;
+	}
+
+	                        /*  displays  footer nav for tablet/desktop size screens  */
+	
+	.footer-nav {
+		display: inline-block;
+	}
+
+	
+	
+	.footer-nav li {
+		display: inline-block;
+		margin: 0 1em;
+		background-color: tan;
+	}
+}
+
+                               /*  For desktop-sized screens (1024px+)  */
+@media (min-width: 1024px) {
+
+	
+	.wrapper {
+		max-width: 1024px;
+	}
+
+	                 
+	
+	h2 {
+		display: inline-block;
+		float: left;	
+	}
+	
+	
+
+	.main-nav {
+		
+		float: right;  /* the right elements causes the links                         to not work!!!  */
+		margin: 0 1em
+			
+	}
+
+	
+	.profile-banner {
+		position: relative;
+	}
+
+	.profile-picture {
+		float: right;
+		clear: right;
+	}
+
+	
+	.profile-intro {
+		position: absolute;
+		max-width: 55%;
+		bottom: 4em;
+		left: 0;
+	}
+
+	
+	.main-content {
+		margin: 0 1em;
+		text-align: center;
+	}
+
+	
+	.portfolio-project {
+		width: 30%;
+		margin: 32px 12px;
+	}
+
+	
+	.project-info  {
+		width: 75%;
+	}
+}
+
+
+
+
+
+
+/*  clearfix hack for clearing floats  */
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
