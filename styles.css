@@ -8,25 +8,13 @@
 
 
 body {
-	background-color:rgb(210, 180, 140);
-	line-height: 1.8;
-	padding: 2em;	
-}
-
-a {
-	text-decoration: none;
-}
-
-a:hover {
-	color: rgb(17, 115, 177);
+	background-color:tan;
+	
+	
 }
 
 
-.main-header {
-	text-align: center;
-	margin: 0 auto;
-	padding: .25em;
-}
+
 
 h2 {
 	margin: 0 auto;
@@ -49,17 +37,26 @@ h5 {
 
 img {
 	max-width: 100%;
-
-	border-width: 6px;		
+	padding:10px 15px;
+	border-width: 6px;
 	
+	
+	
+}
+
+
+p {
+	font-weight: 300;
+	line-height: 1.5em;
+	margin: 0;
 }
 
 
 
 
-
-
-
+a {
+	text-decoration: none;
+}
 ul, li {
 	list-style: none;
 	font-size: 1em;
@@ -79,6 +76,11 @@ ul, li {
             /*-------------HEADING-------------------*/
 	
 
+.main-header {
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 16px;
+}
 
 .profile-banner {
 	padding-top: 1.75em;
@@ -120,7 +122,6 @@ nav {
 
 
  .main-nav li {
-	 font-size: 1.4em;
 	padding-top: 0.6em;
 	padding-bottom: 0.6em;
 	margin-bottom: 4px;
@@ -129,7 +130,7 @@ nav {
 
 
 
-   /*      MAIN CONTENT      */
+                      /*      MAIN CONTENT      */
 
 
 .main-content {
@@ -152,11 +153,10 @@ nav {
 
 
 #skills, .portfolio-project {
-	font-size: 1.6em;
 	text-align: center;
 	width: 100%;
-	padding-bottom:.5em;
-	margin-top:.5em;
+	padding-bottom: 1em;
+	margin-top:1em;
 	margin-bottom: 0.9em;
 }
 
@@ -178,18 +178,16 @@ nav {
 
 .contact-info {
 	padding-bottom: 1em;
-	margin-bottom: 1em;
+	margin-bottom: 2em;
 }
 
 
 .contact-info p {
-	margin: 1.6em auto;
+	margin: 1em auto;
 }
                  /*         FOOTER NAVIGATION MOBILE SETTINGS    */
 .footer-nav,
 .footer-nav-mobile {
-	font-size: 1.4em;
-	max-width: 80%;
 	float: right;
 }
 
@@ -217,15 +215,11 @@ nav {
 
 
 .student-name {
-
-display: block;
 	float: left;
-	font-size: 1.6em;
-
-	
-	
-
-
+	font-size: 0.83em;
+	font-weight: bold;
+	margin-top: 2px;
+	margin-bottom: 2px;
 }
 
 
@@ -270,13 +264,12 @@ p {
 }
 
 #skills-list li {
-
-	border-radius: .5em;
+	border-radius: 1rem;
     display: inline-block;
-    background: #006400;
-    color: antiquewhite;
-    padding: .5em;
-  
+    background: antiquewhite;
+    color: darkgreen;
+    padding: 5px;
+    margin: 2px;
 	
 }
 
@@ -385,7 +378,7 @@ p {
 	                 
 	
 	h2 {
-	
+		display: inline-block;
 		float: left;	
 	}
 	
@@ -436,15 +429,16 @@ p {
 	}
 	
 
-	
 }
 
 
 
 /*  clearfix hack for clearing floats  */
-
 	.clearfix:after {
 	content: "";
 	display: table;
 	clear: both;
 }
+	
+
+
